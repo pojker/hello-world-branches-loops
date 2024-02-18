@@ -129,3 +129,168 @@ Or the first number is equal to the second", even though a does not equal b.
 
 
 */
+
+
+
+
+
+//Use loops to repeat operations
+
+
+int counter = 0;
+while (counter < 10)
+{
+  Console.WriteLine($"Hello World! The counter is {counter}");
+  counter++;
+}
+
+
+/* Output:
+Hello World! The counter is 0
+Hello World! The counter is 1
+Hello World! The counter is 2
+Hello World! The counter is 3
+Hello World! The counter is 4
+Hello World! The counter is 5
+Hello World! The counter is 6
+Hello World! The counter is 7
+Hello World! The counter is 8
+Hello World! The counter is 9
+*/
+
+
+/*Important
+We should make sure that the while loop condition does switch to false as we execute the code.
+Otherwise, we create an infinite loop where our program never ends.
+*/
+
+
+
+int counter = 0;
+do
+{
+  Console.WriteLine($"Hello World! The counter is {counter}");
+  counter++;
+} while (counter < 10);
+
+
+/* Output:
+Hello World! The counter is 0
+Hello World! The counter is 1
+Hello World! The counter is 2
+Hello World! The counter is 3
+Hello World! The counter is 4
+Hello World! The counter is 5
+Hello World! The counter is 6
+Hello World! The counter is 7
+Hello World! The counter is 8
+Hello World! The counter is 9
+
+The while loop tests the condition before executing the code following the while.
+The do ... while loop executes the code first, and then checks the condition.
+*/
+
+
+
+
+// Work with the for loop
+
+for (int counter = 0; counter < 10; counter++)
+{
+    Console.WriteLine($"Hello world! The counter is {counter}");
+}
+
+/* Output:
+Hello world! The counter is 0
+Hello world! The counter is 1
+Hello world! The counter is 2
+Hello world! The counter is 3
+Hello world! The counter is 4
+Hello world! The counter is 5
+Hello world! The counter is 6
+Hello world! The counter is 7
+Hello world! The counter is 8
+Hello world! The counter is 9
+
+
+This does the same work as the while loop and the do loop we've already used. 
+The for statement has three parts that control how it works.
+
+The first part is the for initializer: int counter = 0; declares that counter is the loop variable, 
+and sets its initial value to 0.
+
+The middle part is the for condition: counter < 10 declares that this for loop continues to execute
+as long as the value of counter is less than 10.
+
+The final part is the for iterator: counter++ specifies how to modify the loop variable 
+after executing the block following the for statement.
+Here, it specifies that counter should be incremented by 1 each time the block executes.
+
+*/
+
+
+for (int counter = 2; counter < 10; counter++)
+{
+    Console.WriteLine($"Hello world! The counter is {counter}");
+}
+
+/* Output:
+Hello world! The counter is 2
+Hello world! The counter is 3
+Hello world! The counter is 4
+Hello world! The counter is 5
+Hello world! The counter is 6
+Hello world! The counter is 7
+Hello world! The counter is 8
+Hello world! The counter is 9
+*/
+
+
+
+for (int counter = 8; counter < 10; counter++)
+{
+    Console.WriteLine($"Hello world! The counter is {counter}");
+}
+
+/* Output:
+Hello world! The counter is 8
+Hello world! The counter is 9
+*/
+
+
+
+for (int counter = 9; counter < 10; counter++)
+{
+    Console.WriteLine($"Hello world! The counter is {counter}");
+}
+
+
+/* Output
+Hello world! The counter is 9
+*/
+
+
+
+for (int counter = 2; counter < 15; counter++)
+{
+    Console.WriteLine($"Hello world! The counter is {counter}");
+}
+
+/* Output
+Hello world! The counter is 2
+Hello world! The counter is 3
+Hello world! The counter is 4
+Hello world! The counter is 5
+Hello world! The counter is 6
+Hello world! The counter is 7
+Hello world! The counter is 8
+Hello world! The counter is 9
+Hello world! The counter is 10
+Hello world! The counter is 11
+Hello world! The counter is 12
+Hello world! The counter is 13
+Hello world! The counter is 14
+*/
+
+
+
