@@ -1,6 +1,5 @@
 ﻿//MAKE DECISIONS USING THE IF STATEMENT
 
-using System.Xml;
 
 int a = 5;
 int b = 6;
@@ -578,4 +577,23 @@ The cell is (j, 10)
 
 
 
+
+/*
+find the sum of all integers 1 through 20 that are divisible by 3. 
+Hints:
+The % operator gives us the remainder of a division operation.
+The if statement gives us the condition to see if a number should be part of the sum.
+The for loop can help us repeat a series of steps for all the numbers 1 through 20.
+*/
+
+
+int sum = 0;
+for (int number = 1; number < 21; number++)
+{
+  if (number % 3 == 0)
+  {
+    sum = sum + number;
+  }
+}
+Console.WriteLine($"The sum is {sum}");
 
